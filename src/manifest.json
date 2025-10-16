@@ -26,10 +26,13 @@
         "storage",
         "tabs"
     ],
-    "applications": {
+    "browser_specific_settings": {
         "gecko": {
             "id": "{89772a9a-380f-49b2-bb48-582796985bbe}",
-            "strict_min_version": "57.0"
+            "strict_min_version": "79.0",
+            "data_collection_permissions": {
+                "required": ["none"]
+            }
         }
     }
 }
