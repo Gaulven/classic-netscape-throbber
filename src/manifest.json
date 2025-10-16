@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
 
-    "name": "Chromescape Navigator",
+    "name": "Classic Netscape Throbber",
     "description": "Show the Netscape Navigator or Internet Explorer loading animation in Firefox",
     "version": "1.3.0",
 
@@ -28,7 +28,7 @@
     ],
     "applications": {
         "gecko": {
-            "id": "chromescape-navigator@example.com",
+            "id": "{89772a9a-380f-49b2-bb48-582796985bbe}",
             "strict_min_version": "57.0"
         }
     }
