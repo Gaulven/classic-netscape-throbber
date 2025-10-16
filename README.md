@@ -1,5 +1,7 @@
 # Classic Netscape Throbber
 
+Available here: (https://addons.mozilla.org/en-US/firefox/addon/classic-netscape-throbber/)
+
 ## Explanation
 
 A fork and fix of Firescape Navigator, also called Chromescape Navigator, originally at (https://github.com/evansalter/chromescape-navigator) and renamed as to not collide with the original addon.
