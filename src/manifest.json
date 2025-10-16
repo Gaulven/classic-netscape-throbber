@@ -2,8 +2,8 @@
     "manifest_version": 2,
 
     "name": "Chromescape Navigator",
-    "description": "Show the Netscape Navigator or Internet Explorer loading animation in Chrome",
-    "version": "1.2.0",
+    "description": "Show the Netscape Navigator or Internet Explorer loading animation in Firefox",
+    "version": "1.3.0",
 
     "icons": {
         "16": "logo/logo16.png",
@@ -14,13 +14,22 @@
         "default_icon": "logo/logo16.png"
     },
     "background": {
-        "scripts": ["script.js"]
+        "scripts": ["script.js"],
+        "persistent": false
     },
     "options_ui": {
-        "page": "options/options.html"
+        "page": "options/options.html",
+        "open_in_tab": false
     },
     "permissions": [
         "activeTab",
-        "storage"
-    ]
+        "storage",
+        "tabs"
+    ],
+    "applications": {
+        "gecko": {
+            "id": "chromescape-navigator@example.com",
+            "strict_min_version": "57.0"
+        }
+    }
 }

@@ -9,7 +9,7 @@ const DEFAULT_ICON = 'nn';
 const ICON_CONFIG = {
     nn: {
         directoryName: 'netscape',
-        totalFrames: 34,
+        totalFrames: 41,
         frameRate: 130
     },
     ie: {
