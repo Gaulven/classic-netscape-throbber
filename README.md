@@ -1,6 +1,6 @@
 # Classic Netscape Throbber
 
-Available here: (https://addons.mozilla.org/en-US/firefox/addon/classic-netscape-throbber/)
+Available here (once Mozilla approves): (https://addons.mozilla.org/en-US/firefox/addon/classic-netscape-throbber/)
 
 ## Explanation
 
